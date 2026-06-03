@@ -2954,6 +2954,9 @@ def format_caption(topic, variation_idx, hashtags):
         
     caption += f"\n🔥 {tagline}\n\n"
     caption += f"{hashtags}"
+
+    if topic in ["Token Supply", "Tokenomics"]:
+        caption += "\n\n✨ TurboLoop Token is an extra rewards layer from TurboLoop with zero interference on the main protocol performance"
     
     return caption
 
